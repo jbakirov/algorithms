@@ -19,8 +19,7 @@ public class DepthFirstSearch {
     }
 
     public DepthFirstSearch(Graph G, int s, int k) {
-        marked = new boolean[G.getV()];
-        edgeTo = new int[G.getV()];
+        this(G, s);
         dfs(G, s, k);
     }
 
