@@ -39,7 +39,7 @@ public class BinaryTreePaths {
             secondVersion(path, length, node.left);
             secondVersion(path, length, node.right);
         }
-        
+
 
     }
 
