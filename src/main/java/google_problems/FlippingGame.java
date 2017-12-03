@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /**
  * Created by jaloliddinbakirov on 11/27/17.
+ *
+ * wrong
  */
 public class FlippingGame {
 
@@ -17,7 +19,6 @@ public class FlippingGame {
             a[0][i] = scanner.nextInt();
         }
 
-        int sum1, sum2, sum3, sum4 = 0;
         for (int i = 1; i <= a[0].length; i++){
             a[0][i] = Math.max(a[0][i], a[0][i] + a[0][i-1]);
             a[1][i] = Math.max(a[0][i-1], a[1][i-1]);
