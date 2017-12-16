@@ -16,7 +16,7 @@ public class Test {
 //    public static void main(String[] args) {
 //        System.out.println(pow(3, 3));
 //
-    
+
 //        Set<String> s = new HashSet<>();
 //        s.add("s");
 //
@@ -37,6 +37,7 @@ public class Test {
         LinkedList<Integer> linkedList = new LinkedList<>();
         ListIterator i = linkedList.listIterator();
 
+        Map<String, String> k = new HashMap<>();
 
     }
 
