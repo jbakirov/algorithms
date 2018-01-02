@@ -23,6 +23,11 @@ public class MyLinkedList {
             }
 
             @Override
+            public void remove() {
+
+            }
+
+            @Override
             public Object next() {
                 if (followingNode == null){
                     throw new NoSuchElementException();
@@ -31,6 +36,7 @@ public class MyLinkedList {
                 followingNode = followingNode.next;
                 return data;
             }
+
         };
     }
 
