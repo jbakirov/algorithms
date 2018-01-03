@@ -32,6 +32,20 @@ public class SelectionSort {
 
     }
 
+    public void sort2 (int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            int min = a[i];
+            int minIndex = i;
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[j] < min) {
+                    min = a[j];
+                    minIndex = j;
+                }
+            }
+            swap(a, i, minIndex);
+        }
+    }
+
     private static void sort1(int[] a){
 
         for (int i = 0; i < a.length; i++){
